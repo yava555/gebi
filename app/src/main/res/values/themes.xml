@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="android:colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:colorAccent">@color/color_primary</item>
+        <item name="android:logo">@drawable/ic_launcher</item>
+        <item name="logo">@drawable/ic_launcher</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/bg_app</item>
+
+        <item name="actionBarStyle">@style/Custom.ActionBar.Style</item>
+        <item name="android:actionBarStyle">@style/Custom.ActionBar.Style</item>
+        <item name="actionBarIconColor">@color/actionbar_text_icon_color</item>
+        <item name="actionMenuTextColor">@color/actionbar_text_icon_color</item>
+        <item name="actionMenuTextAppearance">@style/Custom.ActionMenu.Text</item>
+        <item name="actionModeBackground">@color/color_primary</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_ab_back</item>
+        <item name="actionModeStyle">@style/Custom.ActionMode.Style</item>
+
+        <item name="homeAsUpIndicator">@drawable/ic_ab_back</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_ab_back</item>
+    </style>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_app">#EDEDED</color>
+    <color name="bg_element">#FFFFFF</color>
+
+    <color name="primary_text_color">#666666</color>
+    <color name="secondary_text_color">#969696</color>
+    <color name="titlebar_text_color">#FFFFFFFF</color>
+    <color name="actionbar_text_icon_color">#ffffff</color>
+
+    <color name="bg_element_normal">#ffffff</color>
+    <color name="bg_element_pressed">#f1f1f1</color>
+
+</resources>

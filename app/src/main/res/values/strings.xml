@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">都市森林</string>
+    <string name="item_broadcast">小区广播</string>
+    <string name="item_phone_directory">号码通</string>
+    <string name="item_house_decoration_groupon">家装团购</string>
+    <string name="item_fix">报修</string>
+    <string name="item_cleaning">保洁</string>
+    <string name="item_takeout">附近外卖</string>
+    <string name="item_secondhand">二手交易</string>
+    <string name="item_bbs">社区论坛</string>
+    <string name="item_about">关于</string>
+
+</resources>

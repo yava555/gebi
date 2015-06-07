@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="Custom.ActionMode.Style" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="titleTextStyle">@style/Custom.ActionMode.Title.Text</item>
+    </style>
+    <style name="Custom.ActionMode.Title.Text" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">@color/actionbar_text_icon_color</item>
+    </style>
+    <style name="Custom.ActionMenu.Text" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Custom.ActionBar.Style" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="displayOptions">showHome|homeAsUp|showTitle</item>
+        <item name="titleTextStyle">@style/Custom.ActionBar.Title.Text</item>
+        <item name="elevation">1dp</item>
+    </style>
+    <style name="Custom.ActionBar.Title.Text" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text_icon_color</item>
+    </style>
+
+
+    <style name="PrimaryButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@drawable/bg_button</item>
+    </style>
+    <style name="SecondaryButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">#999</item>
+        <item name="android:background">#cfcfcf</item>
+    </style>
+
+
+    <style name="ProgressDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+</resources>
